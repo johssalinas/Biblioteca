@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".usuario.UsuPrestarLibroActivity">
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="@string/prestarLibro"
+        android:textColor="#CAC0C0"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imagePrestar"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginVertical="10dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/clean_code" />
+
+    <TextView
+        android:id="@+id/tituloPrestar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#AAA8A8"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/autorPrestar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#5A5959"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/descripcionPrestar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#6C6B6B" />
+
+    <Button
+        android:id="@+id/btnPrestarLibro"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/back_login"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/prestar"
+        android:textColor="#BAA7A7"
+        android:textSize="16sp" />
+
+</LinearLayout>

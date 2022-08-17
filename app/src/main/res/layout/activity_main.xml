@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".login.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/iniciasesion"
+        android:textAlignment="center"
+        android:textColor="#CAC0C0"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info"
+        android:textAlignment="center"
+        android:textColor="#4E4C4C"
+        android:textSize="16sp" />
+
+
+    <EditText
+        android:id="@+id/txtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/back_login_txt"
+        android:ems="10"
+        android:hint="@string/correo"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:textAlignment="textStart"
+        android:textColor="#D6D4D4"
+        android:textColorHint="#C3BEBE"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtpass"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/back_login_txt"
+        android:ems="10"
+        android:hint="@string/pass"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:textColor="#D6D4D4"
+        android:textColorHint="#C3BEBE"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnAgregarLibro"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/back_login"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/iniciasesion"
+        android:textAllCaps="true"
+        android:textColor="#BAA7A7"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crearcuenta"
+        android:textAlignment="center"
+        android:textColor="#877A7A" />
+
+    <Button
+        android:id="@+id/btnSignin"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:background="@drawable/back_login_btnlogin"
+        android:text="@string/crearcuenta2"
+        android:textColor="#801C1C"
+        android:textSize="12sp" />
+</LinearLayout>
